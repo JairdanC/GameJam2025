@@ -1,6 +1,7 @@
 var move_speed = 2; // setting movement speed, change this later based on map size etc
 var dodge_speed = 5; // speed when a dodge is being used
 var can_dodge = true;
+var dodged = false; 
 
 if (keyboard_check_pressed(ord("Q")) && can_dodge == true)
 {
@@ -21,5 +22,5 @@ x += move * move_speed; // incrementing x position based on whether or not D or 
 else 
 {
 var dodge = keyboard_check(ord("Q")) - keyboard_check(ord("E"));
-x += dodge * dodge_speed
+x += dodge * dodge_speed;
 }
