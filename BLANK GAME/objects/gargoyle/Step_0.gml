@@ -2,10 +2,12 @@ var move_speed = 2; // setting movement speed, change this later based on map si
 var dodge_speed = 5; // speed when a dodge is being used
 var can_dodge = true;
 
+
 if (keyboard_check_pressed(ord("Q")) && can_dodge == true)
 {
 can_dodge = false;
 x += dodge_speed = 5;
+
 
 }
 
