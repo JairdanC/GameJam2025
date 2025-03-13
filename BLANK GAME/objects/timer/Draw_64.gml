@@ -1,1 +1,1 @@
-draw_text(10, 10, time_min + ":" + time_sec);
+draw_text(62, 97, time_min + ":" + time_sec);
