@@ -34,6 +34,8 @@
   },
   "name":"BLANK GAME",
   "resources":[
+    {"id":{"name":"obj_fireball","path":"objects/obj_fireball/obj_fireball.yy",},},
+    {"id":{"name":"obj_wizard","path":"objects/obj_wizard/obj_wizard.yy",},},
     {"id":{"name":"gargoyle","path":"objects/gargoyle/gargoyle.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"Sprite1","path":"sprites/Sprite1/Sprite1.yy",},},
