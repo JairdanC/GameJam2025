@@ -43,6 +43,7 @@
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"gargoyle_active","path":"sprites/gargoyle_active/gargoyle_active.yy",},},
     {"id":{"name":"gargoyle_inactive","path":"sprites/gargoyle_inactive/gargoyle_inactive.yy",},},
+    {"id":{"name":"gargoyle_walk_left","path":"sprites/gargoyle_walk_left/gargoyle_walk_left.yy",},},
     {"id":{"name":"Melee","path":"sprites/Melee/Melee.yy",},},
     {"id":{"name":"Sprite3","path":"sprites/Sprite3/Sprite3.yy",},},
     {"id":{"name":"Tileset_sprite","path":"sprites/Tileset_sprite/Tileset_sprite.yy",},},
