@@ -34,7 +34,6 @@
   },
   "name":"BLANK GAME",
   "resources":[
-    {"id":{"name":"Gameloop","path":"objects/Gameloop/Gameloop.yy",},},
     {"id":{"name":"gar_attack","path":"objects/gar_attack/gar_attack.yy",},},
     {"id":{"name":"gargoyle","path":"objects/gargoyle/gargoyle.yy",},},
     {"id":{"name":"obj_fireball","path":"objects/obj_fireball/obj_fireball.yy",},},
