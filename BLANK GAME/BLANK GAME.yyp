@@ -47,6 +47,8 @@
     {"id":{"name":"Melee","path":"sprites/Melee/Melee.yy",},},
     {"id":{"name":"Sprite3","path":"sprites/Sprite3/Sprite3.yy",},},
     {"id":{"name":"Tileset_sprite","path":"sprites/Tileset_sprite/Tileset_sprite.yy",},},
+    {"id":{"name":"wizard_attack_left","path":"sprites/wizard_attack_left/wizard_attack_left.yy",},},
+    {"id":{"name":"wizard_attack_right","path":"sprites/wizard_attack_right/wizard_attack_right.yy",},},
     {"id":{"name":"wizard_cast","path":"sprites/wizard_cast/wizard_cast.yy",},},
     {"id":{"name":"wizard_walk_left","path":"sprites/wizard_walk_left/wizard_walk_left.yy",},},
     {"id":{"name":"wizard_walk_right","path":"sprites/wizard_walk_right/wizard_walk_right.yy",},},
