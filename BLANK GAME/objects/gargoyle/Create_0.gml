@@ -5,3 +5,4 @@ move_speed = 2; // setting movement speed, change this later based on map size e
 dodge_distance = 60; // speed when a dodge is being used, change this later based on map size etc
 facing = 0; // storing which direction player is facing
 kb_x = 0; // knockback value
+active = false;

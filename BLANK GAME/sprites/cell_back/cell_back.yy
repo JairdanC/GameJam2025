@@ -19,6 +19,7 @@
   "height":64,
   "HTile":false,
   "layers":[
+    {"$GMImageLayer":"","%Name":"52eea6a7-e836-4b19-9a55-e2a9cbb95aae","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"52eea6a7-e836-4b19-9a55-e2a9cbb95aae","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
     {"$GMImageLayer":"","%Name":"694f0f18-dae6-4ba0-919f-156cbac91dd7","blendMode":0,"displayName":"default","isLocked":false,"name":"694f0f18-dae6-4ba0-919f-156cbac91dd7","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"cell_back",
