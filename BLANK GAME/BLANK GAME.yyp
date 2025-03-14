@@ -50,6 +50,7 @@
     {"id":{"name":"wizard_attack_left","path":"sprites/wizard_attack_left/wizard_attack_left.yy",},},
     {"id":{"name":"wizard_attack_right","path":"sprites/wizard_attack_right/wizard_attack_right.yy",},},
     {"id":{"name":"wizard_cast","path":"sprites/wizard_cast/wizard_cast.yy",},},
+    {"id":{"name":"wizard_die","path":"sprites/wizard_die/wizard_die.yy",},},
     {"id":{"name":"wizard_walk_left","path":"sprites/wizard_walk_left/wizard_walk_left.yy",},},
     {"id":{"name":"wizard_walk_right","path":"sprites/wizard_walk_right/wizard_walk_right.yy",},},
     {"id":{"name":"Castle_tiles","path":"tilesets/Castle_tiles/Castle_tiles.yy",},},
