@@ -31,7 +31,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"wizard_walk_left",
+    "path":"sprites/wizard_walk_left/wizard_walk_left.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
