@@ -4,6 +4,15 @@
 var move = keyboard_check(ord("D")) - keyboard_check(ord("A"));
 var dodge = keyboard_check(ord("E")) - keyboard_check(ord("Q"));
 
+if (move > 0) 
+{
+	facing = 1; // facing right (moving right, D being pressed)
+}
+else if (move < 0)
+{
+	facing = -1;	
+}
+
 if (can_dodge && dodge != 0) 
 {
 	x += dodge * dodge_distance;
@@ -16,3 +25,20 @@ if (can_dodge && dodge != 0)
 	x += move * move_speed; // incrementing x position based on whether or not D or A is being pressed
 }
 
+if (keyboard_check_pressed(vk_space)) // checking if player attacked
+{
+	if (facing > 0) // if player facing right
+	{
+		var _inst = instance_create_depth(x+30,y, depth, gar_attack);	// attack object spawns mirrored on their right
+		_inst.image_xscale = -1;
+	}
+	else // otherwise player facing left
+	{
+		var _inst = instance_create_depth(x,y,depth, gar_attack); // attack object spawns on their left	
+	}
+	
+}
+
+if (alarm[1] >= 0) { // player getting knocked back if hit
+	x += kb_x;
+}
