@@ -1,1 +1,1 @@
-draw_text(62, 97, time_min + ":" + time_sec);
+//Figure out after camera
