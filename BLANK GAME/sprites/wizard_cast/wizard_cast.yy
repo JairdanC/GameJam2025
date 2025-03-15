@@ -1,10 +1,10 @@
 {
   "$GMSprite":"",
   "%Name":"wizard_cast",
-  "bboxMode":0,
+  "bboxMode":2,
   "bbox_bottom":59,
   "bbox_left":13,
-  "bbox_right":61,
+  "bbox_right":53,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,

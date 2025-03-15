@@ -1,10 +1,10 @@
 {
   "$GMSprite":"",
   "%Name":"wizard_walk_left",
-  "bboxMode":0,
+  "bboxMode":2,
   "bbox_bottom":59,
-  "bbox_left":1,
-  "bbox_right":58,
+  "bbox_left":10,
+  "bbox_right":48,
   "bbox_top":1,
   "collisionKind":1,
   "collisionTolerance":0,
