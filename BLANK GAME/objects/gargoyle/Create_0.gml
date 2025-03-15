@@ -7,3 +7,5 @@ facing = 0; // storing which direction player is facing
 kb_x = 0; // knockback value
 active = false;
 
+sprite_index = gargoyle_inactive
+

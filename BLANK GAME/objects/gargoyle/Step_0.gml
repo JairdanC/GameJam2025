@@ -11,12 +11,15 @@ if active
 	if (move > 0) 
 	{
 		facing = 1; // facing right (moving right, D being pressed)
+		sprite_index = gargoyle_walk_right;
 	}
 	else if (move < 0)
 	{
 		facing = -1;	
+		sprite_index = gargoyle_walk_left;
+	} else {
+		sprite_index = gargoyle_active;
 	}
-	
 
 
 	if (can_dodge && dodge != 0) 
