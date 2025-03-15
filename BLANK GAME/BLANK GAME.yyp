@@ -67,6 +67,7 @@
     {"id":{"name":"wizard_walk_left","path":"sprites/wizard_walk_left/wizard_walk_left.yy",},},
     {"id":{"name":"wizard_walk_right","path":"sprites/wizard_walk_right/wizard_walk_right.yy",},},
     {"id":{"name":"Castle_tiles","path":"tilesets/Castle_tiles/Castle_tiles.yy",},},
+    {"id":{"name":"TileSet2","path":"tilesets/TileSet2/TileSet2.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",

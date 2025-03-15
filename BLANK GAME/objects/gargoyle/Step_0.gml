@@ -1,3 +1,6 @@
+var layer_id = layer_get_id("Walls");
+var map_id = layer_tilemap_get_id(layer_id);
+
 if active
 {
 
@@ -13,18 +16,26 @@ if active
 	{
 		facing = -1;	
 	}
+	
+
 
 	if (can_dodge && dodge != 0) 
 	{
-		x += dodge * dodge_distance;
-		can_dodge = false;
-		dodging = true;
-		alarm[0] = game_get_speed(gamespeed_fps) * 1; //Cooldown timer
-		alarm[2] = 20; //Invinciblity frames timer, play test this
+		if (x + dodge*dodge_distance > 50 && x + dodge*dodge_distance < 320) {
+			
+			x += dodge * dodge_distance;
+			can_dodge = false;
+			dodging = true;
+			alarm[0] = game_get_speed(gamespeed_fps) * 1; //Cooldown timer
+			alarm[2] = 20; //Invinciblity frames timer, play test this
+		}
 	} else
-	{
-		x += move * move_speed; // incrementing x position based on whether or not D or A is being pressed
+	{	
+		if (x + move * move_speed > 50 && x + move * move_speed < 320 ) {
+			x += move * move_speed; // incrementing x position based on whether or not D or A is being pressed
+		}
 	}
+	
 
 	if (keyboard_check_pressed(vk_space)) // checking if player attacked
 	{

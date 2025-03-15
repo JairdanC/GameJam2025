@@ -45,8 +45,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"gargoyle_inactive",
-    "path":"sprites/gargoyle_inactive/gargoyle_inactive.yy",
+    "name":"gargoyle_active",
+    "path":"sprites/gargoyle_active/gargoyle_active.yy",
   },
   "spriteMaskId":null,
   "visible":true,
