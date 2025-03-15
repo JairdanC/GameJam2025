@@ -20,7 +20,7 @@ if active
 		can_dodge = false;
 		dodging = true;
 		alarm[0] = game_get_speed(gamespeed_fps) * 1; //Cooldown timer
-		alarm[1] = 20; //Invinciblity frames timer, play test this
+		alarm[2] = 20; //Invinciblity frames timer, play test this
 	} else
 	{
 		x += move * move_speed; // incrementing x position based on whether or not D or A is being pressed

@@ -6,3 +6,4 @@ dodge_distance = 60; // speed when a dodge is being used, change this later base
 facing = 0; // storing which direction player is facing
 kb_x = 0; // knockback value
 active = false;
+
